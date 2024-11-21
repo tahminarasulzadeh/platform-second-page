@@ -34,7 +34,7 @@ const Dropdown: React.FC<MyComponentProps> = ({ svg, name, isOpen, arr, onToggle
 
                     {
                         arr.map((item, index:number) => (
-                            <li key={index} className="font-noto mt-1 font-medium text-[14px] leading-[19.97px] cursor-pointer text-[#000000] ">{item}</li>
+                            <li key={index} className="font-noto mt-2 font-medium text-[16px] leading-[19.97px] cursor-pointer text-[#000000] ">{item}</li>
                         ))
                     }
 
